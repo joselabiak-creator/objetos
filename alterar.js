@@ -11,3 +11,14 @@ console.log(pessoa.profissao);
 console.log(pessoa.telefone);
 
 console.log(pessoa.CPF)
+
+pessoa.nome = "Luma Silva";
+
+console.log(pessoa.nome);
+
+const novaPessoa = { 
+    nome: "Pedro"
+};
+
+pessoa = novaPessoa;
+
